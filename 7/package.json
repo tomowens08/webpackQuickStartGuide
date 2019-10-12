@@ -1,0 +1,19 @@
+{
+  "name": "your-project",
+  "sideEffects": false
+}
+
+{
+  "name": "your-project",
+  "sideEffects": [
+    "./src/some-side-effectful-file.js"
+  ]
+}
+
+{
+  "name": "your-project",
+  "sideEffects": [
+    "./src/some-side-effectful-file.js",
+    "*.css"
+  ]
+}
